@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Jody's Web Calculator</title>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="calcScript.js"></script>
+</head>
+<body>
+    <h2>Calc</h2>
+
+    <section id="calc">
+
+        <input type="text" placeholder="Enter First Argument" id="FirstArg" />
+        <br />
+        <br />
+
+        <input type="text" placeholder="Enter Second Argument" id="SecondArg" />
+        <br />
+        <br />
+
+        <input type="radio" name="Operator" value="add" />Add these two numbers<br />
+        <input type="radio" name="Operator" value="subtract" />Subtract these two numbers<br />
+        <input type="radio" name="Operator" value="multiply" />Multiply these two numbers<br />
+        <input type="radio" name="Operator" value="divide" />Divide these two numbers<br />
+        <input type="radio" name="Operator" value="exponentiate" />Raise the first number to the power of the second number<br />
+        <br />
+        <br />
+
+        <button id="submit">Do the math</button>
+        <br />
+        <br />
+        <label id="Message">No message from server yet.</label>
+    </section>
+</body>
+</html>
